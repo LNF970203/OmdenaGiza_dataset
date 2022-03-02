@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 import plotly.express as px
+import seaborn as sns
 
 df= pd.read_csv('https://raw.githubusercontent.com/hidayat7z/OmdenaGiza_dataset/main/USD_GBP_EURvs_EgyptianCurrency_from_2016_to_2022.csv')
 df= df.iloc[:,1:8]
